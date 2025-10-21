@@ -7,7 +7,7 @@ import torch
 from torch import nn
 from torch.utils.data import DataLoader, TensorDataset
 
-StudentNumber = "0000000000"  # TODO: Replace with your student number
+StudentNumber = "2025021851"  # TODO: Replace with your student number
 
 
 @torch.no_grad()
@@ -66,3 +66,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# %%
