@@ -55,7 +55,7 @@ def evaluate_model(
 
 def main():
     # load each train dataset, val dataset, test dataset
-    data_test = np.load(f"data1/clean_data.npz")
+    data_test = np.load(f"data2/noisy_data.npz")
     xt, yt = data_test["x"], data_test["y"]
 
     mdn = torch.jit.load(f"model/{StudentNumber}.pth", map_location="cpu")
