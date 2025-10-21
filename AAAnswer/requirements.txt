@@ -1,0 +1,11 @@
+# This line tells pip to check the PyTorch index in ADDITION to the normal one
+--extra-index-url https://download.pytorch.org/whl/cu130
+
+# PyTorch packages (pip will find these at the 'Cuda 13' URL)
+torch
+torchvision
+
+# Your other packages
+matplotlib 
+scipy
+jupyter
